@@ -1,4 +1,20 @@
 #write your code here
 
-def countdown
+def countdown(number)
+  count = number
+  while count > 0
+    print "#{count} SECOND(S)!\n"
+    count -= 1
+  end
+  "HAPPY NEW YEAR!"
+end
+
+def countdown_with_sleep(number)
+  count = number
+  while count > 0
+    "#{count} SECOND(S)!"
+    count -= 1
+    sleep(1)
+  end
+  "HAPPY NEW YEAR!"
 end
